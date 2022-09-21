@@ -1,0 +1,30 @@
+header{
+    background-color: blueviolet;
+    width: 1200px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+
+ul li {
+    list-style-type: none;
+
+     
+}
+
+
+ul{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+

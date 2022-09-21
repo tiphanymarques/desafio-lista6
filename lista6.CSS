@@ -1,0 +1,58 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdawn ul li a{
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    color: white;
+    width: 200px;
+    padding: 20px;
+
+}
+
+
+.dropdawn ul li a:hover{
+    background-color: blue;
+}
+
+.dropdawn ul li{
+    list-style-type:none;
+}
+
+
+.dropdawn{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdawn_child{
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+
+.dropdawn_child a{
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdawn_child a:hover{
+    color: white;
+    background-color: blue;
+}
+
+
+
+
+
+
+.dropdawn:hover .dropdawn_child{
+  display: block;
+}
+
+
+
